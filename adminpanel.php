@@ -85,7 +85,7 @@ function show_form($defaults='' ,$errors='')
 <div id="d01">
 <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post"name="form" >
 <label>Username</label><br />
-<input type="text" name="username" placeholder="UserName" value="<?php  if(!empty($defaults['username'])){echo $defaults['username']; }?>"/><br />
+<input type="text" name="username" placeholder="Username" value="<?php  if(!empty($defaults['username'])){echo $defaults['username']; }?>"/><br />
 <span><?php  if(!empty($errors['username'])){echo $errors['username'];}?></span><br />
 <label>Password</label><br />
 <input type="password" name="password" placeholder="Password" value="<?php  if(!empty($defaults['password'])){echo $defaults['password']; }?>"/><br />
